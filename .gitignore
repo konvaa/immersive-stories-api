@@ -1,0 +1,43 @@
+# Environment
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+venv/
+.venv/
+env/
+.env/
+
+# Distribution / packaging
+*.egg-info/
+dist/
+build/
+*.egg
+
+# IDEs
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Lokální soubory s tokeny. Dřív tu bylo *.txt, což potichu ignorovalo i každý
+# budoucí requirements-*.txt - zúženo jen na konkrétní soubor.
+JWT.txt
+
+# Pracovní GDD dokumenty (Word) - drží se mimo repozitář.
+*.docx
